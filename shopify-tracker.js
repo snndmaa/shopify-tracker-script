@@ -13,7 +13,7 @@ console.log('%c🛍️ Advanced Shopify Tracker Started!', 'color: #4CAF50; font
   // CONFIGURATION
   // ============================================================================
   const config = {
-    apiEndpoint: 'http://localhost:8000/ingest',
+    apiEndpoint: 'https://jay-modern-overly.ngrok-free.app/ingest',
     trackPageViews: true,
     trackClicks: true,
     trackScrollDepth: true,
@@ -2167,3 +2167,4 @@ console.log('%c🛍️ Advanced Shopify Tracker Started!', 'color: #4CAF50; font
   }
 
 })();
+
